@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>자동 복사 및 종료</title>
+    <script>
+      window.onload = function () {
+        const text = 'start "" "G:\\내 드라이브\\청년타일.twdx" & exit';
+        navigator.clipboard.writeText(text).finally(() => {
+          window.close();
+        });
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
